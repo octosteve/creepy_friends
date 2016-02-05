@@ -1,0 +1,22 @@
+<h2>Show event</h2>
+<h3>People here</h3>
+  <input type="text" name="user" id="username" autofocus="true">
+<ul id='here'>
+
+</ul>
+<ul>
+
+  <li>
+    <strong>Name:</strong>
+    <%= @event.name %>
+  </li>
+
+  <li>
+    <strong>Date:</strong>
+    <%= @event.date %>
+  </li>
+
+</ul>
+
+<%= link "Edit", to: event_path(@conn, :edit, @event) %>
+<%= link "Back", to: event_path(@conn, :index) %>

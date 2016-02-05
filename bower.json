@@ -1,0 +1,22 @@
+{
+  "name": "creepy_friends",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Steven Nunez <steven.nunez@gmail.com>"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.2.0"
+  }
+}
